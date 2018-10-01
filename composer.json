@@ -1,0 +1,26 @@
+{
+    "name": "yuesir\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yuesir",
+            "email": "qinjunkun@yeah.net"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yuesir\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yuesir\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
